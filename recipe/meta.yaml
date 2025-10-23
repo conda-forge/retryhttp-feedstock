@@ -1,5 +1,5 @@
 {% set name = "retryhttp" %}
-{% set version = "1.3.3" %}
+{% set version = "1.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/retryhttp-{{ version }}.tar.gz
-  sha256: 071a0296ac69640f9685cc96f9e259c155d327943cc2d15b827eea7577976178
+  sha256: 9bba1ef1b46b67f251ac80b0ee6a846d93dcbbe8c49b7959cd1142fc6c393c99
 
 build:
   noarch: python
