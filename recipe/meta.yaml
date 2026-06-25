@@ -26,6 +26,7 @@ requirements:
     - tenacity
     # all extra
     - httpx
+    - httpx2
     - requests
     - types-requests
 
