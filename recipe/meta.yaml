@@ -1,5 +1,5 @@
 {% set name = "retryhttp" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/retryhttp-{{ version }}.tar.gz
-  sha256: 9bba1ef1b46b67f251ac80b0ee6a846d93dcbbe8c49b7959cd1142fc6c393c99
+  sha256: 6ad975fef6603eba8acf6e4eaaeda8cf37d1db8527bb4bbf118ccde65f32cca0
 
 build:
   noarch: python
@@ -26,6 +26,7 @@ requirements:
     - tenacity
     # all extra
     - httpx
+    - httpx2
     - requests
     - types-requests
 
